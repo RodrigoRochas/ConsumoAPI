@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgba(207, 191, 191, 0.281);
+}
+
+h1 {
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    color: rgba(117, 226, 29, 0.671);
+    font-size: 30px;
+    text-align: center;
+
+}
+
+main {
+    width: 100%;
+    height: 500px;
+
+    background-image: url(imagens/mapa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ #info {
+     width: 300px;
+     height: 300px;
+     margin-top: 7px;
+
+     border: 2px solid white;
+     box-shadow: 5px 5px 5px 5px  rgba(233, 221, 221, 0.753);
+     background-color: rgba(241, 225, 225, 0.842);
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .geral {
+     margin-bottom: 10px;
+     color: greenyellow;
+     font-size: 25px;
+     font-weight: bold;
+     font-family: 'Open Sans', sans-serif;
+ }
+
+ #nome, #cep, #endereco, 
+ #bairro, #cidade, #estado
+   {
+     width: 180px;
+     height: 28px;
+     margin-top: 10px;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 20px;
+     
+ }
+
+ #endereco, #bairro, #cidade, #estado {
+    color: black;
+    border: 1px solid green;
+ }
+
+ #redesSC {
+     width: 400px;
+     height: 100px;
+
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 20px;
+     margin-bottom: 5px;
+
+     /* background-color: blue; */
+}
+
+.github, .email, .linkedin {
+    width: 100px;
+    height: inherit;
+
+    background-color: ivory;
+    border-radius: 50%;
+
+    margin-left: 5px;
+    float: left;
+}
+
+.email, .linkedin {
+    border: 2px solid blue;
+}
+
+.github {
+    margin-left: 50px;
+    border: 2px solid black;
+}
+
+#imgEmail, #imgLink, #imgGit {
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+}
