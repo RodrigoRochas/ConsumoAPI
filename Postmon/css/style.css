@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+a { 
+    text-decoration: underline;
+    color: black;
+    
+}
+
+
+h1 {
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#container {
+    width: 300px;
+    height: auto;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    /* background-color: blue; */
+}
+
+.campo {
+    font-size: 25px;
+    margin-bottom: 10px;
+    /* color: red; */
+}

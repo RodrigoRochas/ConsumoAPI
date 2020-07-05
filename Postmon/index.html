@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>POSTMON</title>
+</head>
+<body>
+    <header>
+        <h1>Endereços com a API POSTMON</h1>
+    </header>
+    <main>
+        <section id="container">
+            <form >
+                <div class="campo">
+                    Nome: <input type="text" id='nome' pattern="^[a-zA-Z0-9]+$" maxlength="30">
+                </div>
+
+                <div class="campo">
+                    CEP: <input type="text" id='cep' pattern="[0-9]{5}-?[0-9]{3}" maxlength="9">
+                </div>
+
+                <div class="campo">
+                    Endereço: <input type="text" id='endereco' disabled>
+                </div>
+
+                <div class="campo">
+                    Bairro: <input type="text" id='bairro' disabled>
+                </div>
+
+                <div class="campo">
+                    Cidade: <input type="text" id='cidade' disabled>
+                </div>
+
+                <div class="campo">
+                    Estado: <input type="text" id='estado' disabled>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por 
+            <a href="https://github.com/RodrigoRochas"</a> Rodrigo Rocha
+        </p>
+    </footer>
+    <script src="scripty.js"></script>
+</body>
+</html>
