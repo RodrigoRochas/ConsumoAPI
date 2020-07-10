@@ -1,0 +1,30 @@
+.spiner {
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+    border-radius: 50%;
+}
+
+.cor1 {
+    border: 7px solid darkgoldenrod;
+    border-top-color: rgba(98, 98, 195, 0.726);
+
+}
+
+.cor2 {
+    border: 7px solid lightcoral;
+    border-top-color: black;
+
+}
+
+.cor3 {
+    border: 7px solid gold;
+    border-top-color: khaki;
+
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
