@@ -30,4 +30,4 @@
 
  <br>
 
- Copyright© 2020 | Todos os direitos reservados | Desenvolvido por <a href = "https://www.linkedin.com/in/rodrigo-rocha-santos-0b094216a/"><b>Rodrigo Rocha</b></a>.
+ <p align=center>Copyright© 2020 | Todos os direitos reservados | Desenvolvido por <a href = "https://www.linkedin.com/in/rodrigo-rocha-santos-0b094216a/"><b>Rodrigo Rocha</b></a>.</p>
